@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header*/
+nav{
+    background-color: #333;
+    overflow: auto;
+}
+
+h1.logo a{
+    color: white;
+    float: left;
+    padding: 10px 10px ;
+    padding-top: 15px;
+    padding-left: 120px;
+    text-decoration: none;
+    border: transparent;  
+}
+a{
+    text-decoration: none;
+}
+ul{
+    float: right;
+    padding-right: 80px;
+}
+li{
+    list-style: none;
+    float: left;
+}
+li a{
+
+    color:white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+li a :last-child{
+    padding-right: 40px;
+}
+.logo a:hover{
+    color: #f7c08a;
+}
+.clr{
+    clear:both;
+}
+ul li a:hover,
+ul li a.current{
+    color: #f7c08a;
+    background-color: #444;
+}
+/*photo is here */
+.showcase{
+    background: url(../image/showcase.jpg) no-repeat
+    center center/cover;
+    height: 600px;
+
+}
+.showcase #container{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.showcase #container h1{
+    color: white;
+    font-size: 60px;
+    line-height: 1.6em;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.lead{
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+.btn {
+    color:white;
+    text-align: center;
+    background-color: #333;
+    font-size: 18px;
+    padding: 6px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #f7c08a;
+    background-color: #444;
+}
+
+/* header end*/
+
+/* section start*/
+
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../image/photo-1.jpg');
+    min-height: 100%;
+}
+#home-info .info-contect{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+.bg-dark{
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+}
+.btn-light{
+    background-color: white;
+    padding: 20px;
+    margin: 80px;
+    color: #333;
+} 
+.btn-light:hover{
+    background-color: #f7c08a;
+}  
+h2{
+    color:white;
+    padding:50px;
+}
+
+
+
+p{
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+/*about info*/
+
+#about-info .into-left{
+    float: left;
+    width: 50%;
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    padding-left: 40px;
+}
+.py-3 {
+    padding: 30px 0;
+}
+.about-heading{
+    font-size: 40px;
+    padding: 30px 0px;
+}
+#about-info.container{
+    padding:30px;
+}
+#testimonials{ 
+    height: 600px;
+    padding-top: 100px;
+    background: url(../image/test-bg.jpg) center center / cover no-repeat;
+}
+#testimonials h2{ 
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#testimonials .testimonial {
+    margin-bottom: 40px;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+#testimonials .testimonial :last-child {
+    padding-bottom: 40px;  
+}
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.bg-primary {
+    color: rgb(51, 51, 51);
+    background: rgb(247, 192, 138);
+}
+.container{
+        max-width: 1100px;
+        margin: auto;
+        overflow: auto;
+        padding: 0px 20px;
+        padding-bottom: 50px;
+}
+.l-heading {
+    font-size: 40px;
+    padding: 10px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*section*/
+
+.box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    color: #333;
+}
+.box i{
+    margin-bottom: 10px;
+}
+.bg_light{
+    background-color: #f7c08a;
+}
+.contact{
+    background-color: #444;
+    color: white;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color:#f7c08a ;
+}
